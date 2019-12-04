@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/', // 部署目录
+  base: '/cpm-ui-docs/', // 部署目录
   title: 'cpm-ui',  // 设置网站标题
   description: 'A Mobile UI Toolkit for Vue 2.0', // 网站meta描述
   head: [
