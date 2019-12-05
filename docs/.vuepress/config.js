@@ -14,6 +14,10 @@ module.exports = {
   theme: '', // 使用主题，vuepress-theme-xx
   // 主题配置
   themeConfig: {
+    lastUpdated: 'Last Updated', // 文字底部显示上次更新时间
+
+    smoothScroll: true,
+
     /**
      * 顶部导航
      * 1. navbar: false表示禁用导航
@@ -21,12 +25,12 @@ module.exports = {
      * 3. 绝对路径时，后面会带一个图标
      * 4. 二级菜单使用一级items表示下拉，二级items表示一级下拉中再分组
      */
-    navbar: true,
+    // navbar: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Example', link: 'https://cpm828.github.io/cpm-ui', target: '_self' },
-      { text: 'Github', link: 'https://github.com/cpm828/cpm-ui', target: '_self' },
       { text: 'Pimi Blog', link: 'https://cpm828.github.io/blog', target: '_self' },
+      { text: 'Github', link: 'https://github.com/cpm828/cpm-ui', target: '_self' },
 
       // 二次菜单
       // {
@@ -120,7 +124,7 @@ module.exports = {
         ]
       },
       {
-        title: '感谢',   // 必要的
+        title: '鸣谢',   // 必要的
         path: '/base/thanks', // 可选的, 应该是一个绝对路径
         collapsable: false, // 可选的, 默认值是 true,
         sidebarDepth: 1    // 可选的, 默认值是 1
@@ -135,5 +139,8 @@ module.exports = {
     lineNumbers: true // 代码块显示行号
   },
 
-  evergreen: false // 浏览器兼容，true表示不考虑低级浏览器，构建速度更快
+  // search: true, // 使用禁用搜索，内置搜索置灰搜索页面标题、h2、h3，全文搜索可以使用Algolia
+  // searchMaxSuggestions: 10, // 搜索条数
+
+  // evergreen: false // 浏览器兼容，true表示不考虑低级浏览器，构建速度更快
 }

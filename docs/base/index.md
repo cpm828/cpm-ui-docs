@@ -2,9 +2,9 @@
 
 > 基于Vue.js 2.0 UI组件库.
 
-## 快速查看
+## 查看示例
 
-### 链接
+### 链接查看
 [点击查看教程](https://cpm828.github.io/cpm-ui/demo/index.html)
 
 ### 扫码查看
@@ -24,7 +24,10 @@ npm install cpm-ui --save
 npm install node-sass --save-dev
 npm install sass-loader@7.3.1 --save-dev
 ```
+
+::: warning
 如果安装 `sass-loader` 版本的版本大于8，会报错 `Module build failed: TypeError: this.getResolve is not a function` ，只需要将 `sass-loader` 降级到v7即可
+:::
 
 ### 引入组件
 main.js中引入
