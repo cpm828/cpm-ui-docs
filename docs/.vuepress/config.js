@@ -28,6 +28,7 @@ module.exports = {
     // navbar: true,
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Write MD', link: '/base/VuePress.html' },
       { text: 'Example', link: 'https://cpm828.github.io/cpm-ui', target: '_self' },
       { text: 'Pimi Blog', link: 'https://cpm828.github.io/blog', target: '_self' },
       { text: 'Github', link: 'https://github.com/cpm828/cpm-ui', target: '_self' },
@@ -55,84 +56,99 @@ module.exports = {
     sidebar: [
       {
         title: '基础',   // 必要的
-        path: '/base/', // 可选的, 应该是一个绝对路径
+        path: '', // 可选的, 应该是一个绝对路径
         collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1    // 可选的, 默认值是 1
+        sidebarDepth: 2,    // 可选的, 默认值是 1
+        children: [
+          ['/base/', '快速上手'],
+        ]
       },
       {
-        title: '反馈类',   // 必要的
-        path: '/feedback/', // 可选的, 应该是一个绝对路径
+        title: '组件',   // 必要的
+        path: '', // 可选的, 应该是一个绝对路径
         collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1,    // 可选的, 默认值是 1
+        sidebarDepth: 2,    // 可选的, 默认值是 1
         children: [
-          ['/feedback/Toast', 'Toast提示'],
-          ['/feedback/Loading', 'Loading加载中'],
-          ['/feedback/Dialog', 'Dialog弹窗'],
-          ['/feedback/ActionSheet', 'ActionSheet弹出选择'],
-          ['/feedback/DatePicker', 'DatePicker时间选择器'],
-        ]
-      },
-      {
-        title: '基础类',
-        path: '/basic/',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          ['/basic/cIcon', 'cIcon图标'],
-          ['/basic/cButton', 'cButton按钮'],
-          ['/basic/cRate', 'cRate评分'],
-          ['/basic/cProgress', 'cProgress进度'],
-          ['/basic/cSearch', 'cSearch搜索栏'],
-          ['/basic/cCountDown', 'cCountDown倒计时'],
-          ['/basic/cIndexList', 'cIndexList索引列表']
-        ]
-      },
-      {
-        title: '表单类',
-        path: '/form/',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          ['/form/cRadio', 'cRadio单选框'],
-          ['/form/cRadioGroup', 'cRadioGroup单选框'],
-          ['/form/cCheckbox', 'cCheckbox复选框'],
-          ['/form/cCheckboxGroup', 'cCheckboxGroup复选框'],
-          ['/form/cRange', 'cRange滑块'],
-          ['/form/cRangeDouble', 'cRangeDouble双滑块'],
-          ['/form/cSwitch', 'cSwitch开关'],
-          ['/form/cInput', 'cInput用户输入']
-        ]
-      },
-      {
-        title: '布局类',
-        path: '/layout/',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          ['/layout/cSticky', 'cSticky滚动吸顶'],
-          ['/layout/cFixed', 'cFixed顶部或底部固定'],
-          ['/layout/cTitleBar', 'cTitleBar标题栏'],
-        ]
-      },
-      {
-        title: 'css类',
-        path: '/css/',
-        collapsable: false,
-        sidebarDepth: 1,
-        children: [
-          ['/css/cssOnePx', '1px边框解决方案'],
+          {
+            title: '反馈类',   // 必要的
+            path: '/feedback/', // 可选的, 应该是一个绝对路径
+            collapsable: false, // 可选的, 默认值是 true,
+            sidebarDepth: 1,    // 可选的, 默认值是 1
+            children: [
+              ['/feedback/Toast', 'Toast提示'],
+              ['/feedback/Loading', 'Loading加载中'],
+              ['/feedback/Dialog', 'Dialog弹窗'],
+              ['/feedback/ActionSheet', 'ActionSheet弹出选择'],
+              ['/feedback/DatePicker', 'DatePicker时间选择器'],
+            ]
+          },
+          {
+            title: '基础类',
+            path: '/basic/',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              ['/basic/cIcon', 'cIcon图标'],
+              ['/basic/cButton', 'cButton按钮'],
+              ['/basic/cRate', 'cRate评分'],
+              ['/basic/cProgress', 'cProgress进度'],
+              ['/basic/cSearch', 'cSearch搜索栏'],
+              ['/basic/cCountDown', 'cCountDown倒计时'],
+              ['/basic/cIndexList', 'cIndexList索引列表']
+            ]
+          },
+          {
+            title: '表单类',
+            path: '/form/',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              ['/form/cRadio', 'cRadio单选框'],
+              ['/form/cRadioGroup', 'cRadioGroup单选框'],
+              ['/form/cCheckbox', 'cCheckbox复选框'],
+              ['/form/cCheckboxGroup', 'cCheckboxGroup复选框'],
+              ['/form/cRange', 'cRange滑块'],
+              ['/form/cRangeDouble', 'cRangeDouble双滑块'],
+              ['/form/cSwitch', 'cSwitch开关'],
+              ['/form/cInput', 'cInput用户输入']
+            ]
+          },
+          {
+            title: '布局类',
+            path: '/layout/',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              ['/layout/cSticky', 'cSticky滚动吸顶'],
+              ['/layout/cFixed', 'cFixed顶部或底部固定'],
+              ['/layout/cTitleBar', 'cTitleBar标题栏'],
+            ]
+          },
+          {
+            title: 'css类',
+            path: '/css/',
+            collapsable: false,
+            sidebarDepth: 1,
+            children: [
+              ['/css/cssOnePx', '1px边框解决方案'],
+            ]
+          },
         ]
       },
       {
         title: '鸣谢',   // 必要的
-        path: '/base/thanks', // 可选的, 应该是一个绝对路径
+        path: '', // 可选的, 应该是一个绝对路径
         collapsable: false, // 可选的, 默认值是 true,
-        sidebarDepth: 1    // 可选的, 默认值是 1
+        sidebarDepth: 2,    // 可选的, 默认值是 1
+        children: [
+          ['/base/thanks', '特别鸣谢'],
+        ]
       },
     ]
   },
 
-  plugins: '', // 使用插件
+  // 使用插件
+  plugins: ['@vuepress/back-to-top'],
 
   // markdown文档配置
   markdown: {

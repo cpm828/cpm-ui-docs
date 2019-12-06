@@ -1,4 +1,8 @@
+
+
 # cpm-ui
+
+<!-- <img src="browser_webkit.png"> -->
 
 > 基于Vue.js 2.0 UI组件库.
 
@@ -19,13 +23,14 @@ npm install cpm-ui --save
 ```
 
 
-### 安装 `node-sass`、`sass-loader`依赖
+### 安装依赖
+安装 `node-sass`、`sass-loader`依赖
 ```
 npm install node-sass --save-dev
 npm install sass-loader@7.3.1 --save-dev
 ```
 
-::: warning
+::: warning 警告
 如果安装 `sass-loader` 版本的版本大于8，会报错 `Module build failed: TypeError: this.getResolve is not a function` ，只需要将 `sass-loader` 降级到v7即可
 :::
 
