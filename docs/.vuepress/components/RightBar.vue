@@ -3,6 +3,7 @@
 	<div class="right-bar" v-if="displayState">
 		<div class="iframe-mobile-view">
 			<iframe :src="iframeURL" frameborder="0"></iframe>
+			<p class="tip">注：因PC端浏览存在最小12px字号的原因，部分视图下文字会显示比较大，手机端访问正常。</p>
 		</div>
 	</div>
 </template>
@@ -49,7 +50,7 @@ export default {
 .right-bar{
 	overflow-y: scroll;
 	background-color: #fff;
-	width: 24rem;
+	width: 20rem;
 	height: 100%;
 	position: fixed;
 	z-index: 10;
@@ -58,18 +59,24 @@ export default {
 	right: 0;
 	bottom: 0;
 	border-left: 1px solid #eaecef;
+	padding: 1rem;
+	box-sizing border-box;
 	.iframe-mobile-view{
-		width: 24rem;
-		height: 48.288rem;
+		width: 18rem;
+		height: 36.216rem;
 		box-sizing border-box;
 		padding: 31% 6% 23% 6.6%;
 		background: url('https://pimichen.com/cpm-ui/images/iphone7plus.png') no-repeat;
 		background-size: 100% 100%;
-		transform: scale(0.9);
+		// transform: scale(0.95);
 		iframe{
 			width: 100%;
 			height 100%;
 		}
+	}
+	.tip{
+		margin-top: 5rem;
+		font-size: 14px;
 	}
 }
 @media (max-width: 1150px) {
