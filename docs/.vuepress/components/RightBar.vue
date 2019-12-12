@@ -2,7 +2,7 @@
 	<!-- 右侧，至于global-ui中 -->
 	<div class="right-bar">
 		<div class="iframe-mobile-view">
-			<iframe src="http://cpm828.github.io/cpm-ui/demo/index.html#/" frameborder="0"></iframe>
+			<iframe src="https://cpm828.github.io/cpm-ui/demo/index.html#/" frameborder="0"></iframe>
 		</div>
 	</div>
 </template>
