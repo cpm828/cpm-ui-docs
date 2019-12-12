@@ -1,8 +1,5 @@
 ## 编写流程
 
-1. 进入另一个工程 cpm-ui-docs 编写说明文档
-2. 发布到 cpm828.github.io/cpm-ui-docs 上
-
 ```bash
 npm run docs:dev # 本地编写
 

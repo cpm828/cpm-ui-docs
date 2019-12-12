@@ -11,6 +11,9 @@ module.exports = {
   port: '8081', // dev server
   dest: 'dist', // build目录
 
+  // 使用插件
+  plugins: ['@vuepress/back-to-top'],
+
   theme: '', // 使用主题，vuepress-theme-xx
   // 主题配置
   themeConfig: {
@@ -79,7 +82,7 @@ module.exports = {
               ['/feedback/Loading', 'Loading加载中'],
               ['/feedback/Dialog', 'Dialog弹窗'],
               ['/feedback/ActionSheet', 'ActionSheet弹出选择'],
-              ['/feedback/DatePicker', 'DatePicker时间选择器'],
+              // ['/feedback/DatePicker', 'DatePicker时间选择器'],
             ]
           },
           {
@@ -94,7 +97,7 @@ module.exports = {
               ['/basic/cProgress', 'cProgress进度'],
               ['/basic/cSearch', 'cSearch搜索栏'],
               ['/basic/cCountDown', 'cCountDown倒计时'],
-              ['/basic/cIndexList', 'cIndexList索引列表']
+              // ['/basic/cIndexList', 'cIndexList索引列表']
             ]
           },
           {
@@ -147,8 +150,11 @@ module.exports = {
     ]
   },
 
-  // 使用插件
-  plugins: ['@vuepress/back-to-top'],
+  // 全局UI，注入在global-ui中
+  globalUIComponents: [
+    'BackToTop',
+    'RightBar'
+  ],
 
   // markdown文档配置
   markdown: {

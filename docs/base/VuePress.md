@@ -1,5 +1,5 @@
 ---
-sidebar: false # 隐藏侧边栏
+sidebar: true # 隐藏侧边栏
 ---
 
 ## VuePress markdown 文档常用的特殊用法
