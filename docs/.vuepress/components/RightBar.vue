@@ -62,10 +62,10 @@ export default {
 		width: 24rem;
 		height: 48.288rem;
 		box-sizing border-box;
-		padding: 31.1% 6.293% 23.2% 6.6%;
+		padding: 31% 6% 23% 6.6%;
 		background: url('https://pimichen.com/cpm-ui/images/iphone7plus.png') no-repeat;
 		background-size: 100% 100%;
-		transform: scale(0.88);
+		transform: scale(0.9);
 		iframe{
 			width: 100%;
 			height 100%;
