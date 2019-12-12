@@ -1,3 +1,7 @@
+---
+componentUrl: toast # cpm-ui路由
+---
+
 # Toast组件
 
 ## 使用教程

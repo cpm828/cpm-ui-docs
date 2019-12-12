@@ -1,3 +1,7 @@
+---
+componentUrl: progress # cpm-ui路由
+---
+
 # cProgress长条进度组件
 
 ## 使用教程

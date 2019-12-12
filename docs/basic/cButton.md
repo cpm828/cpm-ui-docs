@@ -1,3 +1,7 @@
+---
+componentUrl: button # cpm-ui路由
+---
+
 # cButton按钮组件
 
 ## 使用教程

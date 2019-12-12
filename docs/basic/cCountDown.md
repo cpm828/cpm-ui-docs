@@ -1,3 +1,7 @@
+---
+componentUrl: countdown # cpm-ui路由
+---
+
 # cCountDown倒计时组件
 
 ## 使用教程

@@ -1,3 +1,7 @@
+---
+componentUrl: range # cpm-ui路由
+---
+
 # cRange单滑块组件
 
 ## 使用教程

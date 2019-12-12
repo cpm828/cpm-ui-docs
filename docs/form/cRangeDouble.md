@@ -1,3 +1,7 @@
+---
+componentUrl: rangedouble # cpm-ui路由
+---
+
 # cRangeDouble双滑块组件
 
 ## 使用教程

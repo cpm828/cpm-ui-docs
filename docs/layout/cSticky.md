@@ -1,3 +1,7 @@
+---
+componentUrl: sticky # cpm-ui路由
+---
+
 # cSticky吸顶组件
 
 ## 使用教程

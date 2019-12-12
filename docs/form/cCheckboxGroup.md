@@ -1,3 +1,7 @@
+---
+componentUrl: checkboxgroup # cpm-ui路由
+---
+
 # cCheckboxGroup多选组组件
 
 `cCheckboxGroup` 组件依赖 [cCheckbox](https://github.com/cpm828/cpm-ui/tree/gh-pages/document/cCheckbox.md) 构建。

@@ -1,3 +1,7 @@
+---
+componentUrl: cssonepx # cpm-ui路由
+---
+
 # CSS 1px解决方案
 
 ## 使用教程

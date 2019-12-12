@@ -1,3 +1,7 @@
+---
+componentUrl: radiogroup # cpm-ui路由
+---
+
 # cRadioGroup单选组组件
 
 `cRadioGroup` 组件依赖 [cRadio](https://github.com/cpm828/cpm-ui/tree/gh-pages/document/cRadio.md) 构建。

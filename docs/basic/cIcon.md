@@ -1,3 +1,7 @@
+---
+componentUrl: icon # cpm-ui路由
+---
+
 # cIcon组件
 
 ## 使用教程

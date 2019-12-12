@@ -1,3 +1,7 @@
+---
+componentUrl: dialog # cpm-ui路由
+---
+
 # Dialog弹窗组件
 
 ## 使用教程

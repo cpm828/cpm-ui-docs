@@ -1,3 +1,7 @@
+---
+componentUrl: titlebar # cpm-ui路由
+---
+
 # TitleBar标题栏
 
 ## 使用教程

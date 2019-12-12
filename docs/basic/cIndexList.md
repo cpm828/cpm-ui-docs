@@ -1,3 +1,7 @@
+---
+componentUrl: indexlist # cpm-ui路由
+---
+
 # cIndexList索引列表组件
 
 ## 使用教程

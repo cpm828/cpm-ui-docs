@@ -1,3 +1,7 @@
+---
+componentUrl: search # cpm-ui路由
+---
+
 # cSearch搜索组件
 
 ## 使用教程

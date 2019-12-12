@@ -1,3 +1,7 @@
+---
+componentUrl: radio # cpm-ui路由
+---
+
 # cRadio单选框组件
 
 ## 使用教程

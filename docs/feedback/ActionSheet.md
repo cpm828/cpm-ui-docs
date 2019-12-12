@@ -1,3 +1,7 @@
+---
+componentUrl: actionsheet # cpm-ui路由
+---
+
 # ActionSheet选择组件
 
 ## 使用教程

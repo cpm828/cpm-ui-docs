@@ -1,3 +1,7 @@
+---
+componentUrl: datepicker # cpm-ui路由
+---
+
 # DatePicker日期选择组件
 
 ## 使用教程

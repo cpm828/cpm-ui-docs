@@ -1,3 +1,7 @@
+---
+componentUrl: rate # cpm-ui路由
+---
+
 # cRate评分组件
 
 ## 使用教程

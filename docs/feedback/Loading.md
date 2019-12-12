@@ -1,3 +1,7 @@
+---
+componentUrl: loading # cpm-ui路由
+---
+
 # Loading加载组件
 
 ## 使用教程

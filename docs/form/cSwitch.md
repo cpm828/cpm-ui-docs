@@ -1,3 +1,7 @@
+---
+componentUrl: switch # cpm-ui路由
+---
+
 # cSwitch开关组件
 
 ## 使用教程

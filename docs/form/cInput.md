@@ -1,3 +1,7 @@
+---
+componentUrl: input # cpm-ui路由
+---
+
 # cInput用户输入组件
 
 ## 使用教程

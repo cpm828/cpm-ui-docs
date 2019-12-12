@@ -1,3 +1,7 @@
+---
+componentUrl: fixed # cpm-ui路由
+---
+
 # Fixed顶部或底部固定组件
 
 ## 使用教程

@@ -1,4 +1,6 @@
 ---
+sidebar: false
+
 home: true
 # heroImage: /hero.png
 heroText: cpm-ui

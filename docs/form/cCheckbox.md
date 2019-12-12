@@ -1,3 +1,7 @@
+---
+componentUrl: checkbox # cpm-ui路由
+---
+
 # cCheckbox多选框组件
 
 ## 使用教程
