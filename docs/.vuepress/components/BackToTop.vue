@@ -64,7 +64,7 @@ export default {
   cursor: pointer;
   position: fixed;
   bottom: 2rem;
-  right: 24.6rem;
+  right: 22.6rem;
   width: 2rem;
   color: $accentColor;
   z-index: 1;
