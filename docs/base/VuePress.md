@@ -1,7 +1,3 @@
----
-sidebar: false # 隐藏侧边栏
----
-
 ## VuePress markdown 文档常用的特殊用法
 
 > [查看原文](https://vuepress.vuejs.org/zh/guide/markdown.html)

@@ -153,7 +153,7 @@ module.exports = {
   // 全局UI，注入在global-ui中
   globalUIComponents: [
     'BackToTop',
-    'RightBar'
+    'RightBlock'
   ],
 
   // markdown文档配置
