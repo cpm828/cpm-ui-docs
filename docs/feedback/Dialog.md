@@ -27,7 +27,7 @@ Vue.use(Dialog)
 |cliperStyleObj|蒙层样式|Object||{}|
 |dialogWrapStyle|弹窗样式|Object||{}|
 |contentWrapStyle|主内容样式|Object||{}|
-|animateName|弹窗出现和消失动画|String|''、`zoom-in`、`bounce-in-up`、`bounce-in-down`|''表示不开启动画|
+|animate|弹窗有动画|Boolean|`true`、`false`|`false`|
 |showTitle|是否显示标题|Boolean|`true`、`false`|`false`|
 |titleText|标题文本|String|''|''|
 |message|主内容|String|''|''|
