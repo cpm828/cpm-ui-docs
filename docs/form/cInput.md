@@ -24,7 +24,7 @@ Vue.use(cInput)
 ```js
 config: {
   name: '用户姓名',
-  value: '', // value单独提取出来使用v-model双向绑定
+  value: '',
   maxlength: 15
 }
 ```
@@ -67,14 +67,14 @@ config中包含的属性：
 
 如：
 ```html
-<cInput :config="config" v-model="config.value" @onFocus="onFocus" @onBlur="onBlur" @onInput="onInput" @onChange="onChange" @onClear="onClear"></cInput>
+<cInput :config="config" @onFocus="onFocus" @onBlur="onBlur" @onInput="onInput" @onChange="onChange" @onClear="onClear"></cInput>
 ```
 
 ```js
 config: {
   name: 'username',
   title: '用户姓名',
-  value: '', // value单独提取出来使用v-model双向绑定
+  value: '',
   maxlength: 15
 }
 ```
@@ -84,7 +84,7 @@ config: {
 usernameConfig: {
   name: 'username',
   title: '用户姓名',
-  value: '', // value单独提取出来使用v-model双向绑定
+  value: '',
   maxlength: 15
 }
 // 其他config略
